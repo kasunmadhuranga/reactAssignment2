@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -22,17 +22,70 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.popup-parent {
+	position: absolute;
+	background: #fff;
+	width: 260px;
+	border: solid 1px #000;
+	left: 50%;
+	height: 50%;
+  top: 100px;
+	padding: 20px;
+  z-index: 5;
+  	transform: translateX(-50%);
+}
+
+.close-button {
+	position: absolute;
+	right: 8px;
+	top: 3px;
+  cursor: pointer;
+}
+
+.user-data-edit-popup {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background: #eee;
+	min-width: 300px;
+	padding: 20px;
+	z-index: 5;
+  min-width: 300px;
+}
+
+.user-data-edit-popup button {
+	float: right;
+}
+
+table, th, td {
+  border: 1px solid;
+}
+table {
+	position: absolute;
+	left: 50%;
+	top: 100px;
+	transform: translateX(-50%);
+}
+ td {
+ padding: 10px;
+}
+.popup-parent .row {
+	padding-bottom: 9px;
 }
